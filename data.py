@@ -1,2 +1,3 @@
-colors = ["red," "blue," "green," "pink"]
-print(colors[2])
+bill = int(input("money spent"))
+tip = int(input("extra money paid"))
+print(bill+tip)
