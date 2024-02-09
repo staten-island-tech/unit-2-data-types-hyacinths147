@@ -1,7 +1,7 @@
 #tip calculator
 
-""" bill = float(int(input("money spent on food")))
-tip = int(input("extra money paid"))
+""" bill = float(int(input("money spent on food ")))
+tip = int(input("extra money paid "))
 print(bill+tip) """
 
 
@@ -16,8 +16,8 @@ else:
 
 #Challenge 2
 
-""" bill = int(input("money spent on food"))
-service = input("how was the service?")
+""" bill = int(input("money spent on food "))
+service = input("how was the service? ")
 if service == "bad":
     print("your tip is 0%")
 elif service == "okay":
@@ -31,14 +31,14 @@ else:
 
 #Challenge 3
 
-""" number = int(input("give me a number"))
-print("Factors:".format(number))
+""" number = int(input("give me a number "))
+print("Factors:")
 for i in range (1, number + 1):
     if(number%i == 0):
-        print(i) """
+        print(i)  """
 
 
 #Challenge 4
 
-number_1 = int(input("give me a number"))
-number_2 = int(input("give me another number"))
+number_1 = int(input("give me a number "))
+number_2 = int(input("give me another number "))
