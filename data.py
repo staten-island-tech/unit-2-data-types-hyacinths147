@@ -31,7 +31,7 @@ else:
 
 #Challenge 3
 
-""" number = int(input("give me a number"))
+""" number = int(input("give me a number "))
 print("Factors:")
 for i in range (1, number + 1):
     if(number%i == 0):
@@ -40,11 +40,14 @@ for i in range (1, number + 1):
 
 #Challenge 4
 
-number_1 = int(input("give me a number"))
-number_2 = int(input("give me another number"))
-for x in range (1, number_1 + 1):
-    if number_1%x == 0:
-        print(x)
-for y in range (1, number_2 +1):
-    if number_2%y == 0:
-        print(y)
+""" number_1 = int(input("give me a number "))
+number_2 = int(input("give me another number "))
+def gcf (number_1, number_2):
+    if number_1 > number_2:
+        number_1, number_2 = number_2, number_1
+
+    for x in range (number_1, 0, -1):
+        if number_1%x == 0 and number_2%x == 0:
+            return x
+print("GCF is: ")
+print (str(gcf(number_1, number_2))) """
