@@ -38,13 +38,6 @@ for i in range (1, number + 1):
         print(i)  """
 
 
-
-
-
-
-
-
-
 #Challenge 4
 
 """ number_1 = int(input("give me a number "))
@@ -55,26 +48,3 @@ for i in range (1, number_1 + 1):
 else:
     factors.append
 print(factors[-1]) """
-
-
-
-
-
-
-
-
-
-
-
-
-""" number_1 = int(input("give me a number "))
-number_2 = int(input("give me another number "))
-def gcf (number_1, number_2):
-    if number_1 > number_2:
-        number_1, number_2 = number_2, number_1
-
-    for x in range (number_1, 0, -1):
-        if number_1%x == 0 and number_2%x == 0:
-            return x
-print("GCF is: ")
-print (str(gcf(number_1, number_2))) """
